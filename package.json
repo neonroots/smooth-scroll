@@ -1,0 +1,20 @@
+{
+  "name": "smooth-scroll",
+  "version": "1.0.0",
+  "description": "Library to make your site smoothy :P",
+  "main": "smooth_scroll.coffee",
+  "scripts": {
+    "compress": "coffee --compile src && minify src/smooth_scroll.js --template ../dist/{{filename}}-1.0.0-{{sha}}.min.{{ext}} --clean",
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neonroots/smooth-scroll.git"
+  },
+  "author": "Neonroots",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neonroots/smooth-scroll/issues"
+  },
+  "homepage": "https://github.com/neonroots/smooth-scroll#readme"
+}
